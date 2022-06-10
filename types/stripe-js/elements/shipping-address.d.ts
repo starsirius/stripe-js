@@ -149,5 +149,6 @@ export interface StripeShippingAddressElementChangeEvent
       postal_code: string;
       country: string;
     };
+    phone?: string;
   };
 }
